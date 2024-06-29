@@ -1,9 +1,9 @@
 import './App.css';
 
-function App() {
+function Home() {
     return (
         <>
-            <div className="App">
+            <div className="RSVP">
                 <header>
                     <h1>The Vorobyevs</h1>
                 </header>
@@ -20,4 +20,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;

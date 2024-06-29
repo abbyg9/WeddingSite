@@ -1,19 +1,63 @@
 .App {
-  text-align: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    font-family: 'Barcelony';
 }
 
-.App-header {
-  background-color: #FFFFFF;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+.date {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: calc(25px + 3vmin);
+    color: black;
+    line-height: 30px;
+    font-family: 'Cormorant SC';
+    font-weight: bold;
+}
+
+.names {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: calc(30px + 3vmin);
+    color: black;
+    line-height: 55px;
+    font-family: 'Ephesis';
+}
+
+.mid {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: calc(25px + 3vmin);
+    color: black;
+    font-family: 'Cormorant SC';
 }
 
 @font-face {
-  font-family: 'Barcelony';
-  src: local('Barcelony'), url(./font/Barcelony.ttf) format('truetype');
+    font-family: 'Barcelony';
+    src: local('Barcelony'), url(./font/Barcelony.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: local('Cormorant SC'), url(./font/CormorantSC-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Ephesis';
+    src: local('Ephesis'), url(./font/Ephesis-Regular.ttf) format('truetype');
 }
